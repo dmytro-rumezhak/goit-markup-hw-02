@@ -21,7 +21,7 @@ body {
 }
 
 /* Скидання стилей для списків */
-body ul {
+ul {
   list-style: none;
 }
 
@@ -36,7 +36,7 @@ body ul {
   color: var(--accent-color);
 }
 
-.header > .logo .span-logo {
+.span-black {
   color: var(--color-black);
 }
 
@@ -76,11 +76,12 @@ body ul {
   background-color: var(--footer-color);
 }
 
-.footer > .logo .span-logo {
+.span-white {
   color: var(--color-white);
 }
 
 .footer-address {
+  font-style: normal;
   line-height: 1.71;
   text-decoration: none;
   color: var(--color-white);
@@ -134,6 +135,7 @@ body ul {
 
 /* Стилізація Преимущества */
 .advantages-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
